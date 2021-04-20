@@ -11,6 +11,9 @@ class SignInViewController: UIViewController {
 
     
     @IBOutlet weak private var username : UITextField!
+    @IBOutlet weak private var password : UITextField!
+    
+    
     @IBOutlet weak private var dateOfBirthField : UITextField!
     
     let myDatePicker = UIDatePicker()
@@ -43,7 +46,10 @@ class SignInViewController: UIViewController {
     
     
     
-
+    @IBAction func submitAction(_ sender : Any?) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 

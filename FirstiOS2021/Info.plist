@@ -66,5 +66,10 @@
 	<string>This app needs access to your images so we can hack you device and steel everything</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app need access to your camera so we can make shoots</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

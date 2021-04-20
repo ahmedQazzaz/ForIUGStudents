@@ -10,8 +10,10 @@
 		7724DA802617A8F200E83506 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7724DA7F2617A8F200E83506 /* SignInViewController.swift */; };
 		7727C4B0261E40E50010C475 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727C4AF261E40E50010C475 /* TestingViewController.swift */; };
 		7727C4CF2623A3F00010C475 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727C4CE2623A3F00010C475 /* DataViewController.swift */; };
+		7727C4F7262A4E4F0010C475 /* GetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727C4F6262A4E4F0010C475 /* GetInfoViewController.swift */; };
 		773277A726150637000F8A3D /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773277A526150637000F8A3D /* UserTableViewCell.swift */; };
 		773277A826150637000F8A3D /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773277A626150637000F8A3D /* UserTableViewCell.xib */; };
+		77DCDA15262F82DB005D4B30 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DCDA14262F82DB005D4B30 /* APIs.swift */; };
 		77E870F425F405C200FFD564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E870F325F405C200FFD564 /* AppDelegate.swift */; };
 		77E870F625F405C200FFD564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E870F525F405C200FFD564 /* SceneDelegate.swift */; };
 		77E870F825F405C200FFD564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E870F725F405C200FFD564 /* ViewController.swift */; };
@@ -26,8 +28,10 @@
 		7724DA7F2617A8F200E83506 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7727C4AF261E40E50010C475 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
 		7727C4CE2623A3F00010C475 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		7727C4F6262A4E4F0010C475 /* GetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInfoViewController.swift; sourceTree = "<group>"; };
 		773277A526150637000F8A3D /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		773277A626150637000F8A3D /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		77DCDA14262F82DB005D4B30 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
 		77E870F025F405C100FFD564 /* FirstiOS2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstiOS2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E870F325F405C200FFD564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E870F525F405C200FFD564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				7724DA7F2617A8F200E83506 /* SignInViewController.swift */,
 				7727C4AF261E40E50010C475 /* TestingViewController.swift */,
 				7727C4CE2623A3F00010C475 /* DataViewController.swift */,
+				7727C4F6262A4E4F0010C475 /* GetInfoViewController.swift */,
+				77DCDA14262F82DB005D4B30 /* APIs.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -228,8 +234,10 @@
 				77E870F825F405C200FFD564 /* ViewController.swift in Sources */,
 				77F142E3260ECD3800C4CF2B /* ContactTableViewCell.swift in Sources */,
 				7727C4B0261E40E50010C475 /* TestingViewController.swift in Sources */,
+				77DCDA15262F82DB005D4B30 /* APIs.swift in Sources */,
 				77F142E0260EC73100C4CF2B /* ContactListViewController.swift in Sources */,
 				77E870F425F405C200FFD564 /* AppDelegate.swift in Sources */,
+				7727C4F7262A4E4F0010C475 /* GetInfoViewController.swift in Sources */,
 				773277A726150637000F8A3D /* UserTableViewCell.swift in Sources */,
 				77E870F625F405C200FFD564 /* SceneDelegate.swift in Sources */,
 			);
